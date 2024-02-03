@@ -11,3 +11,5 @@ ModelPosteriorX: These functional posterior traces were fed back into the ODE so
 the model is to the uncertainty in the inferred torque function distribution. This was also done to compare the solution distribution
 between the ODE Solver and DeepONet models. The tight overlap indicates agreement between how the ODE solver and DeepONet warp the 
 distribution over external forcings to the distribution over solutions. 
+
+The subscript _u1u2 indicates both angular position and frequency used for inference, _u1 uses position only, _u2 velocity only. 
