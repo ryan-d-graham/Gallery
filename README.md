@@ -2,7 +2,7 @@ ForwardProblemX: A visual of the model's ability to predict the solution of a dy
 The examples shown are of model predictions from data on which the model was not trained. The agreement indicates the model has learned 
 the dynamical system's dynamics and generalizes well to new, unseen data. 
 
-FourierBasisCoeffChainX: A visual of the sampler chain and marginal densities of the parameters of the external forcing function's 
+CoeffChainX: A visual of the sampler chain and marginal densities of the parameters of the external forcing function's 
 basis coefficients. This is used to generate function posterior plots. 
 
 FunctionPosteriorX: A visual of the posterior distribution over external torque functions using traces/samples from the markov chain.
